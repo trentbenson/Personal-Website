@@ -1,0 +1,167 @@
+html{
+    background-color: #fff;
+}
+
+.button{
+    text-decoration: none;
+	color:black;
+	padding:5px 10px;
+	border:none;
+    background-color:#447994;
+    border-color:  	#223f4e;
+    border-style: solid;
+    font-family: monospace;
+    width: 100px;
+    word-wrap: normal;
+}
+a:hover{
+    background-color: #7998ad;
+    border-color:#67838f;
+}
+a:active{
+    text-emphasis-style:bold;
+    color:blue;
+}
+a:visited{
+    text-emphasis-style: bold;
+}
+
+
+
+
+
+
+
+
+
+
+#page-container{
+    width:90%;
+    margin:auto;
+    margin-top : 5%;
+    background-color:#fff;
+
+}
+/*  
+=========== 
+Content Container
+===========
+*/
+.content-container{
+    margin:auto;
+    width:95%;
+}
+/*  
+=========== 
+Main Header 
+===========
+*/
+#main-header{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    background-color: #fff;
+}
+#main-header .box-1{
+    background-color:#7494ac;
+	color:#000000;
+
+	border:5px#2c2c3c;
+	border-style:solid;
+
+	padding:0px;
+
+}
+#main-header .box-2{
+    background-color:  	#788094;
+    color:#000;
+    padding: 1%;
+
+    border:2px #000;
+    border-style: dotted;
+
+    margin:10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*
+==============
+NAVIGATION BAR 
+==============
+*/
+#main-navbar{
+    background-color:#3c647c;
+    font-family:monospace;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-style: solid;
+    border-color:#2c2c3c;
+    text-align:center;
+}
+
+
+/*
+==============
+MAIN SECTION
+==============
+*/
+#main-section{
+    background-color: #50787823;
+	float:left;
+	width:70%;
+	padding:15px;
+	box-sizing: border-box;
+}
+/*  
+=========== 
+Articles 
+===========
+*/
+article{
+    padding:3px;
+    border-style:dashed;
+    border-color: #44140c;
+    background-color: #741504ab;
+
+}
+
+/*
+==============
+NAVIGATION BAR 
+==============
+*/
+#aside{
+    color: #50787823;
+    background-color: #507878;
+    float:right;
+    width:30%;
+    padding:1px;
+    box-sizing: border-box;
+
+}
+#aside textarea{
+    margin-bottom:10px;
+    width: 100px;
+    height: 100px;
+}
+#aside .button{
+    align-items: left;
+}
+#aside #message-me{
+    margin:10px;
+}
+
+/*
+======
+FOOTER
+======
+*/
+#main-footer p{
+    width: 100%;
+    margin:0px;
+    
+    text-align: center; 
+    background-color: #232330;
+    color:gray;
+    float: inline-end;
+}
